@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/80969076?s=400&u=484c4102be4f2401f4ac9db2f615608eea041063&v=4" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>itslaunchtime! — one stop shop for space</title>
+    <meta name="title" content="itslaunchtime! — one stop shop for space">
+    <meta name="description" content="Check out live views from Boca Chica and beyond, the latest data on the hottest rockets, and news about upcoming launches.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://itslaunchti.me/">
+    <meta property="og:title" content="itslaunchtime! — one stop shop for space">
+    <meta property="og:description" content="Check out live views from Boca Chica and beyond, the latest data on the hottest rockets, and news about upcoming launches.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/itslaunchtime/resources/main/itslaunchtimebanner.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://itslaunchti.me/">
+    <meta property="twitter:title" content="itslaunchtime! — one stop shop for space">
+    <meta property="twitter:description" content="Check out live views from Boca Chica and beyond, the latest data on the hottest rockets, and news about upcoming launches.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/itslaunchtime/resources/main/itslaunchtimebanner.png">
+
+    <script src="src/App.js"></script>
+
+    <!-- pages -->
+    <script src="src/desktop/home.js"></script>
+    <script src="src/desktop/store.js"></script>
+    <script src="src/desktop/settings.js"></script>
+    <script src="src/desktop/streams.js"></script>
+    <script src="src/desktop/contributors.js"></script>
+    <script src="src/desktop/status.js"></script>
+    <script src="src/desktop/vehicle.js"></script>
+
+    <script src="src/mobile/home.js"></script>
+
+    <style>
+      html {
+        background: #c4c4c4;
+        scroll-snap-type: y;
+        scrollbar-width: thin;
+        scrollbar-color: #888888 #a4a4a4;
+        font-family: Inter;
+        overflow: hidden;
+      }
+
+      ::selection {
+        color: #c4c4c4;
+        background: #424242;
+      }
+
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #a4a4a4;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #888888;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555555;
+      }
+
+      a {
+        color: inherit;
+      }
+    </style>
+    <!-- We use Google Analytics for counting visitors and nothing else, rest assured. -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7N2MPYBY3G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7N2MPYBY3G");
+    </script>
+  </head>
+  <body>
+    <app-root />
+  </body>
+</html>
