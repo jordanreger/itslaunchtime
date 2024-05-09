@@ -1,0 +1,1 @@
+web: deno run --allow-net=:${PORT},db-shard-00-01.s7upc.mongodb.net,discord.com --allow-env=DB_PASSWORD,API_KEY,BOT_TOKEN --allow-read server.ts --port=${PORT}
